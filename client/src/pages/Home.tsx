@@ -7,7 +7,6 @@ import {
   Circle,
   Feather,
   LockKeyhole,
-  Mail,
   Menu,
   Moon,
   Quote,
@@ -85,7 +84,7 @@ const faqs = [
   {
     question: "Como falar com o suporte?",
     answer:
-      "Envie sua dúvida para suporte@seudominio.com ou utilize o canal de atendimento informado após a compra.",
+      "Se tiver dúvidas sobre pagamento ou acesso, utilize os canais de atendimento apresentados pela Hotmart na confirmação do pedido.",
   },
   {
     question: "Existe garantia?",
@@ -251,7 +250,6 @@ export default function Home() {
               <a className="button button-accent" href={checkoutUrl}>Garantir meu e-book agora <ArrowUpRight size={17} /></a>
             </div>
             <p className="secure-note"><LockKeyhole size={13} /> Compra processada com segurança pela Hotmart.</p>
-            <p className="placeholder-note">* Substitua o valor e o link acima pelos dados reais do checkout antes de publicar.</p>
           </div>
         </div>
       </section>
@@ -271,8 +269,7 @@ export default function Home() {
           <div className="faq-intro">
             <p className="eyebrow">Antes de começar</p>
             <h2>Perguntas<br /><em>frequentes.</em></h2>
-            <p>Se ainda ficou alguma dúvida, talvez a resposta esteja aqui. Se não estiver, escreva para o suporte.</p>
-            <a href="mailto:suporte@seudominio.com" className="support-link"><Mail size={16} /> suporte@seudominio.com</a>
+            <p>Se ainda ficou alguma dúvida, talvez a resposta esteja aqui. Para questões sobre pagamento ou acesso, consulte os canais de atendimento apresentados pela Hotmart.</p>
           </div>
           <div className="faq-list">
             {faqs.map((faq, index) => {

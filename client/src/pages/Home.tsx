@@ -233,7 +233,7 @@ export default function Home() {
         <div className="page-width offer-grid">
           <div className="offer-art">
             <div className="offer-art-label">A Bíblia que<br /><em>Você Não Leu</em></div>
-            <img src="/manus-storage/biblia-cover_a142149a.jpg" alt="Mockup da capa do e-book A Bíblia que Você Não Leu" />
+            <img src="/assets/biblia-cover.jpg" alt="Mockup da capa do e-book A Bíblia que Você Não Leu" />
             <div className="offer-art-caption">uma leitura para<br />voltar ao texto</div>
           </div>
           <div className="offer-copy">

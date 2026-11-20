@@ -58,3 +58,7 @@ Os arquivos visuais estão em `client/public/assets/`:
 ## Licença
 
 Conteúdo e imagens destinados ao projeto **A Bíblia que Você Não Leu**. Defina a licença de distribuição antes de publicar o repositório como público.
+
+## Checkout
+
+O botão principal da oferta está conectado ao checkout da Hotmart: `https://go.hotmart.com/U107490929E?dp=1`.

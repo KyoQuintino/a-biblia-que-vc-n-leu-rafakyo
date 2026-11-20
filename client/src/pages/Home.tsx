@@ -16,7 +16,7 @@ import {
   X,
 } from "lucide-react";
 
-const checkoutUrl = "#oferta";
+const checkoutUrl = "https://go.hotmart.com/U107490929E?dp=1";
 
 const themes = [
   {
@@ -248,7 +248,7 @@ export default function Home() {
             </div>
             <div className="price-card">
               <div><span className="price-label">Investimento</span><strong className="price">R$ 29,90</strong><span className="price-detail">pagamento único · acesso digital</span></div>
-              <button className="button button-accent" onClick={() => window.open(checkoutUrl, "_self")}>Garantir meu e-book agora <ArrowUpRight size={17} /></button>
+              <a className="button button-accent" href={checkoutUrl}>Garantir meu e-book agora <ArrowUpRight size={17} /></a>
             </div>
             <p className="secure-note"><LockKeyhole size={13} /> Compra processada com segurança pela Hotmart.</p>
             <p className="placeholder-note">* Substitua o valor e o link acima pelos dados reais do checkout antes de publicar.</p>
